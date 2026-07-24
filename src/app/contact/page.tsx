@@ -210,7 +210,7 @@ export default function Contact() {
             <div className="p-10 md:p-20 flex flex-col justify-center">
               <span className="text-[12px] uppercase tracking-[0.2em] text-primary mb-4 block font-bold font-body">Visit Us</span>
               <h2 className="text-4xl md:text-5xl font-headline font-extrabold tracking-tighter text-on-background leading-tight mb-8">
-                Located in the heart <br /> of North Legon.
+                Located in the heart <br /> of Adenta.
               </h2>
               <div className="space-y-6 font-body">
                 <div className="flex items-start gap-4">
@@ -218,15 +218,15 @@ export default function Contact() {
                   <div>
                     <p className="text-xl text-on-surface font-semibold">Glowhite Dental Clinic</p>
                     <address className="not-italic text-on-surface-variant leading-relaxed">
-                      North Legon on the Madina Ritz Junction Agbogba Road,<br />
-                      Adjacent the new Benab Oil Filling Station,<br />
+                      Rowi Junction, Adenta,<br />
+                      Near Papa&apos;s Pizza,<br />
                       Accra
                     </address>
                   </div>
                 </div>
                 <a
                   className="inline-flex items-center gap-2 text-primary font-bold hover:underline group"
-                  href="https://www.google.com/maps?q=5.6869645925391135,-0.189538546566105"
+                  href="https://www.google.com/maps/search/?api=1&query=Rowi+Junction+Adenta+Accra+near+Papa%27s+Pizza"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -237,7 +237,7 @@ export default function Contact() {
             </div>
             <div className="relative min-h-[350px] lg:min-h-full overflow-hidden">
               <iframe
-                src="https://maps.google.com/maps?q=5.6869645925391135,-0.189538546566105&z=17&output=embed"
+                src="https://maps.google.com/maps?q=Rowi+Junction+Adenta+Accra+near+Papa%27s+Pizza&z=16&output=embed"
                 title="GloWhite Dental Clinic Location"
                 width="100%"
                 height="100%"
