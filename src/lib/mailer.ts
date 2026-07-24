@@ -96,7 +96,7 @@ function baseTemplate(title: string, body: string) {
       ${body}
     </div>
     <div class="footer">
-      <strong>GloWhite Dental Clinic</strong> · North Legon on the Madina Ritz Junction Agbogba Road Adjacent the new Benab Oil Filling Station, Accra<br />
+      <strong>GloWhite Dental Clinic</strong> · Rowi Junction, Adenta, Accra (near Papa's Pizza)<br />
       053 964 7100 &nbsp;|&nbsp; 027 184 2345 &nbsp;|&nbsp; Mon – Thu: 8am – 6pm &nbsp;|&nbsp; Fri – Sat: 8am – 5pm &nbsp;|&nbsp; Sun: 2pm – 6pm
     </div>
   </div>

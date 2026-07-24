@@ -19,8 +19,8 @@ export default function Footer() {
         <div className="space-y-4">
           <h4 className="text-[10px] font-bold text-slate-900 uppercase tracking-widest font-body">Location</h4>
           <p className="text-xs font-body text-slate-600">
-            North Legon on the Madina Ritz Junction Agbogba Road<br />
-            Adjacent the new Benab Oil Filling Station<br />
+            Rowi Junction, Adenta<br />
+            Near Papa&apos;s Pizza<br />
             Accra<br />
             Mon - Thu: 8am - 6pm<br />
             Fri - Sat: 8am - 5pm<br />
