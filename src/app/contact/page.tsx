@@ -226,7 +226,7 @@ export default function Contact() {
                 </div>
                 <a
                   className="inline-flex items-center gap-2 text-primary font-bold hover:underline group"
-                  href="https://www.google.com/maps/search/?api=1&query=Rowi+Junction+Adenta+Accra+near+Papa%27s+Pizza"
+                  href="https://maps.app.goo.gl/6gzWXhzYZsBW6wU5A"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -237,7 +237,7 @@ export default function Contact() {
             </div>
             <div className="relative min-h-[350px] lg:min-h-full overflow-hidden">
               <iframe
-                src="https://maps.google.com/maps?q=Rowi+Junction+Adenta+Accra+near+Papa%27s+Pizza&z=16&output=embed"
+                src="https://maps.google.com/maps?q=Glowhite+Dental+Clinic,+Nii+Okpoti+Adjei+Commey+Street,+Accra&z=17&output=embed"
                 title="GloWhite Dental Clinic Location"
                 width="100%"
                 height="100%"
