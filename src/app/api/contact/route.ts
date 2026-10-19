@@ -4,6 +4,8 @@ import path from "path";
 import { sendInquiryNotification } from "@/lib/mailer";
 
 const DATA_FILE = path.join(process.cwd(), "data", "inquiries.json");
+// Vercel's filesystem is read-only, so local persistence only works in dev/self-hosted.
+const CAN_PERSIST = !process.env.VERCEL;
 
 function readInquiries(): any[] {
   try {
@@ -42,12 +44,14 @@ export async function POST(request: NextRequest) {
       createdAt: new Date().toISOString(),
     };
 
-    try {
-      const inquiries = readInquiries();
-      inquiries.push(inquiry);
-      writeInquiries(inquiries);
-    } catch (err) {
-      console.error("Failed to save inquiry (Normal on Vercel):", err);
+    if (CAN_PERSIST) {
+      try {
+        const inquiries = readInquiries();
+        inquiries.push(inquiry);
+        writeInquiries(inquiries);
+      } catch (err) {
+        console.error("Failed to save inquiry:", err);
+      }
     }
 
     await sendInquiryNotification({ name, email, service, message });

@@ -4,6 +4,9 @@ import path from "path";
 import { sendPatientConfirmation, sendBusinessNotification } from "@/lib/mailer";
 
 const DATA_FILE = path.join(process.cwd(), "data", "bookings.json");
+// Vercel's filesystem is read-only, so local persistence only works in dev/self-hosted.
+// On Vercel the emails below are the record of the booking.
+const CAN_PERSIST = !process.env.VERCEL;
 
 function readBookings(): object[] {
   try {
@@ -56,13 +59,15 @@ export async function POST(request: NextRequest) {
     createdAt: new Date().toISOString(),
   };
 
-  try {
-    const bookings = readBookings();
-    bookings.push(booking);
-    writeBookings(bookings);
-  } catch (err) {
-    console.error("Failed to save booking to local file (Normal on Vercel):", err);
-    // Continue despite failure
+  if (CAN_PERSIST) {
+    try {
+      const bookings = readBookings();
+      bookings.push(booking);
+      writeBookings(bookings);
+    } catch (err) {
+      console.error("Failed to save booking to local file:", err);
+      // Continue despite failure
+    }
   }
 
   // Send emails — fire both in parallel, don't block the response on failure
