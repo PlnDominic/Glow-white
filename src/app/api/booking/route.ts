@@ -1,27 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import { supabase } from "@/lib/supabase";
 import { sendPatientConfirmation, sendBusinessNotification } from "@/lib/mailer";
-
-const DATA_FILE = path.join(process.cwd(), "data", "bookings.json");
-// Vercel's filesystem is read-only, so local persistence only works in dev/self-hosted.
-// On Vercel the emails below are the record of the booking.
-const CAN_PERSIST = !process.env.VERCEL;
-
-function readBookings(): object[] {
-  try {
-    if (!fs.existsSync(DATA_FILE)) return [];
-    return JSON.parse(fs.readFileSync(DATA_FILE, "utf-8"));
-  } catch {
-    return [];
-  }
-}
-
-function writeBookings(bookings: object[]) {
-  const dir = path.dirname(DATA_FILE);
-  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(DATA_FILE, JSON.stringify(bookings, null, 2), "utf-8");
-}
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
@@ -59,15 +38,25 @@ export async function POST(request: NextRequest) {
     createdAt: new Date().toISOString(),
   };
 
-  if (CAN_PERSIST) {
-    try {
-      const bookings = readBookings();
-      bookings.push(booking);
-      writeBookings(bookings);
-    } catch (err) {
-      console.error("Failed to save booking to local file:", err);
-      // Continue despite failure
-    }
+  if (!supabase) {
+    console.error("Supabase is not configured (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY); booking not stored.");
+  } else {
+    const { error } = await supabase.from("bookings").insert({
+      booking_id: booking.bookingId,
+      service: booking.service,
+      clinician: booking.clinician,
+      date: booking.date,
+      time_slot: booking.timeSlot,
+      patient_name: booking.patientName,
+      email: booking.email,
+      phone: booking.phone,
+      dob: booking.dob,
+      gender: booking.gender,
+      notes: booking.notes,
+      status: booking.status,
+    });
+    // Don't fail the patient's booking over storage; the emails still go out.
+    if (error) console.error("Failed to save booking to Supabase:", error);
   }
 
   // Send emails — fire both in parallel, don't block the response on failure
@@ -90,9 +79,4 @@ export async function POST(request: NextRequest) {
   ]);
 
   return NextResponse.json({ bookingId, message: "Booking confirmed." }, { status: 201 });
-}
-
-export async function GET() {
-  const bookings = readBookings();
-  return NextResponse.json({ bookings });
 }
