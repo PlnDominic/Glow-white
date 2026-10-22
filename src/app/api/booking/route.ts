@@ -73,10 +73,14 @@ export async function POST(request: NextRequest) {
     gender,
     notes: notes ?? "",
   };
-  await Promise.allSettled([
+  const results = await Promise.allSettled([
     sendPatientConfirmation(emailPayload),
     sendBusinessNotification(emailPayload),
   ]);
+  const labels = ["patient confirmation", "business notification"];
+  results.forEach((r, i) => {
+    if (r.status === "rejected") console.error(`Failed to send ${labels[i]} email for ${bookingId}:`, r.reason);
+  });
 
   return NextResponse.json({ bookingId, message: "Booking confirmed." }, { status: 201 });
 }
