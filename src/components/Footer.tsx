@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-background w-full py-12 px-8 grid grid-cols-1 md:grid-cols-2 gap-8 border-t border-slate-200/50 mt-10">
       <div className="space-y-6">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img loading="lazy" decoding="async" src="/logo.jpeg" alt="GloWhite Dental Clinic" style={{ height: 44, width: "auto", borderRadius: 6 }} />
+        <img loading="lazy" decoding="async" src="/logo.webp" alt="GloWhite Dental Clinic" style={{ height: 44, width: "auto", borderRadius: 6 }} />
         <p className="text-sm font-body text-slate-600 max-w-xs leading-relaxed">
           Experience the pinnacle of dental care where every procedure is performed with clinical precision and patient comfort in mind.
         </p>

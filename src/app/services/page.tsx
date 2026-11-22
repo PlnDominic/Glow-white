@@ -84,7 +84,7 @@ export default function Services() {
                 <img loading="lazy" decoding="async"
                   className="w-full h-full object-cover"
                   alt="Porcelain veneers smile design"
-                  src="/dental-veneers-on-lower-tooth.png"
+                  src="/dental-veneers-on-lower-tooth.webp"
                 />
               </div>
             </div>
@@ -126,7 +126,7 @@ export default function Services() {
                 <img loading="lazy" decoding="async"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   alt="Modern braces treatment"
-                  src="/braces.png"
+                  src="/braces.webp"
                 />
               </div>
             </div>

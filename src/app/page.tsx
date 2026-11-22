@@ -99,7 +99,7 @@ export default function Home() {
                 <img loading="lazy" decoding="async"
                   alt="Modern braces treatment"
                   className="w-full h-full object-cover"
-                  src="/braces.png"
+                  src="/braces.webp"
                 />
               </div>
             </div>
@@ -125,7 +125,7 @@ export default function Home() {
                 <img loading="lazy" decoding="async"
                   alt="Porcelain veneers smile design"
                   className="w-full h-full object-cover"
-                  src="/dental-veneers-on-lower-tooth.png"
+                  src="/dental-veneers-on-lower-tooth.webp"
                 />
               </div>
             </div>
@@ -185,14 +185,14 @@ export default function Home() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
             <div className="flex items-center justify-center bg-white border border-slate-100 p-6 shadow-sm hover:shadow-md transition-shadow grayscale hover:grayscale-0 duration-500">
               <img loading="lazy" decoding="async"
-                src="/insurance.jpg"
+                src="/insurance.webp"
                 alt="Our Insurance Partners"
                 className="w-full h-auto"
               />
             </div>
             <div className="flex items-center justify-center bg-white border border-slate-100 p-6 shadow-sm hover:shadow-md transition-shadow grayscale hover:grayscale-0 duration-500">
               <img loading="lazy" decoding="async"
-                src="/Nationwide%20Medical%20Insurance.png"
+                src="/nationwide-medical-insurance.webp"
                 alt="Nationwide Medical Insurance"
                 className="max-h-32 w-full object-contain"
               />

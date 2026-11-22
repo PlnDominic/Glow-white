@@ -52,14 +52,14 @@ export default function Insurance() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-surface-container-lowest p-8 md:p-12 rounded-[2rem] shadow-sm border border-outline-variant/10">
           <div className="flex items-center justify-center bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
             <img loading="lazy" decoding="async"
-              src="/insurance.jpg"
+              src="/insurance.webp"
               alt="Our Insurance Partners"
               className="w-full h-auto"
             />
           </div>
           <div className="flex items-center justify-center bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
             <img loading="lazy" decoding="async"
-              src="/Nationwide%20Medical%20Insurance.png"
+              src="/nationwide-medical-insurance.webp"
               alt="Nationwide Medical Insurance"
               className="max-h-40 w-full object-contain"
             />

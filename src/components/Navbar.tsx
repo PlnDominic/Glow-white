@@ -33,7 +33,7 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <Link prefetch={false} href="/" className="flex-shrink-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.jpeg" alt="GloWhite Dental" style={{ height: 44, width: "auto", borderRadius: 8 }} />
+            <img src="/logo.webp" alt="GloWhite Dental" style={{ height: 44, width: "auto", borderRadius: 8 }} />
           </Link>
         </div>
 
