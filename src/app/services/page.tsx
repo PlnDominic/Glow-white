@@ -19,7 +19,7 @@ export default function Services() {
             <img
               className="w-full h-full object-cover"
               alt="Modern dental clinic interior"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVfCUaiscA3C_ydk1OSMbn11BpJfN_rwA4ZCZuhgZkow8xwah4GJLXnFynWUYSivmJ-DsuUEAxefdFf-9REXl_bH21X0LbsQXw7cRpMhapB3uj4VqlrNLQtDaWegvyqa65iCiCjrL4V00r43k-YZx-2JvS7jJkggervnNJiq1D5qCX9xg1FN1dK2TQLKmLCSI7Pf6POg0MQqmwVFueVSmQ7yGYwghp2hGaXSHUmLuqYlrEog5kS0d2NtLTpo0g3aKYaYspeaGB"
+              src="/img/photo-4.webp"
             />
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function Services() {
               <img loading="lazy" decoding="async"
                 className="absolute right-0 bottom-0 w-1/2 h-full object-cover opacity-10 group-hover:opacity-20 transition-opacity"
                 alt="Teeth whitening result"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJM7OQfFEN7-cr8AelMI60GbGfadDa3gO9vhZKiWx0suNcN2atFjXTlsBn0Nf6_f6J4h5OK5YMUEyqYuZCIa1TL2oJF8QLIzC8OdJfBs5P9i-iXw_pm4ilf-qiUur4DIxR3gz-n1JFZI3i7eUfKJ05pe8_S4pWDPnl_S0hOAFd7fllMyC3fNilSnYF29MAO2rD5r5zO18vYz4ZIND4fLqAJ7zIosBrFpKK1ikjfL2GM-DAhqP2ktnXx_KvleXuGX1iPAMsm1RN"
+                src="/img/photo-10.webp"
               />
             </div>
 
@@ -70,7 +70,7 @@ export default function Services() {
                 <img loading="lazy" decoding="async"
                   className="w-full h-full object-cover"
                   alt="Invisalign aligners"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjDjXH1fWFblOlXLJTbuAtHEyBjZeQuExfjMTsGhXd8byPgij1wZe0t2cd_8gjYj7EzftJ93EGOvZ6ssZ-RTEubYbjEv8ogwoAwRaZt_Unc871fQw2aMgLphBw3cfU3CR0_cbMTl5r7Go_9yYr-LPPm6ocMNlnAOtGkhQN_X9TtnqYaGQxF6an7RYFYobbCUxn2Ck0-m2mxLf3YaRza6WUNI8-CpanPeOxAv-ysfMV9s-D2QDMyCnRFwTHYDMioWKA2-31bkqh"
+                  src="/img/photo-3.webp"
                 />
               </div>
             </div>

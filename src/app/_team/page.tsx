@@ -8,7 +8,7 @@ const TEAM = [
     specialties: ["Dental Implants", "Full-Mouth Rehabilitation", "Oral Surgery"],
     education: "BDS, MDS – Royal College of Surgeons",
     years: "18+",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDA8VocsEFzrlNyHW85P3XhO6VsJf4ILstVk2qt_ewUfeEmp0qkPA1WxzrjsxTNvaaMRXxDhT26q50O2y676D04D-Wrhjr99qq_l4Ob2G8YmDMtzFlDmzU9JkfyjH_wUtxh5szqexofjV4Mhn1LB1QWeiJJaqfES8zBEdqyAw45yS6frRiCOsf-8aA_b32nYILbz4iXbPSePYZWWsAjx9TAggJ_XNW1I2uOFeGZxM-XmAlP7rWiCRSR3tRK037R0g-pj509FPLh",
+    img: "/img/photo-19.webp",
     featured: true,
   },
   {
@@ -18,7 +18,7 @@ const TEAM = [
     specialties: ["Veneers", "Teeth Whitening", "Smile Design"],
     education: "BDS – University of Tokyo, MSc Aesthetic Dentistry – King's College London",
     years: "12+",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCOy-vBRL9BH-qltJtdoaQ4Nncb-FUx-oqQe3S-qaNrGg521ZB2pM0flRINEnj_owfROu3JrEZhUMv0lCSdLAbbG4fNNal3LgNCHySr81skGYnfFINo12elB0K6nQbQeXtNITfGMWlL3WeYUJbS7ji4vNX2g3VW21OKFBBmayyvmRSK5dF99eatATTjjWir0BMphFhGPCsI2tMdomFUZ6XHZVNIvZ7KQx7pgvn321hmLuNmmzoIrVYMnRrTOnRc0S8o1ECbVaJS",
+    img: "/img/photo-12.webp",
     featured: false,
   },
   {
@@ -28,7 +28,7 @@ const TEAM = [
     specialties: ["Invisalign", "Ceramic Braces", "Interceptive Orthodontics"],
     education: "BChD – KNUST, MOrth – University of Michigan",
     years: "9+",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCgRKjWBqnsG6WFYyaLwplXyReXU7lNHxqzLeILnzadt3LOTzp1wEad5y_bggHQHEPiTVOkcKMYXNwFLb28lLCKnvUQeRfS5ZyqYeYQh-VeYQ8ABXtKqOT7UiyuA_P4GK9DvXQD1WGZNFYUmxoco37wRTFYcfhWYEAUu-uFIUJwZ7z2NZKxTLo9vO-K9Wj3sN-Er6gWhqFtZLElhSD_TeR9eTqv2KapjtvqqsiVL7SxUzGJZEjF-0IGexOFA8pQTF6OATM-rWVW",
+    img: "/img/photo-14.webp",
     featured: false,
   },
   {
@@ -38,7 +38,7 @@ const TEAM = [
     specialties: ["Paediatric Dentistry", "Fissure Sealants", "Preventive Care"],
     education: "BDS – University of Ghana, DClinDent Paediatrics – UCL",
     years: "7+",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBVfCUaiscA3C_ydk1OSMbn11BpJfN_rwA4ZCZuhgZkow8xwah4GJLXnFynWUYSivmJ-DsuUEAxefdFf-9REXl_bH21X0LbsQXw7cRpMhapB3uj4VqlrNLQtDaWegvyqa65iCiCjrL4V00r43k-YZx-2JvS7jJkggervnNJiq1D5qCX9xg1FN1dK2TQLKmLCSI7Pf6POg0MQqmwVFueVSmQ7yGYwghp2hGaXSHUmLuqYlrEog5kS0d2NtLTpo0g3aKYaYspeaGB",
+    img: "/img/photo-4.webp",
     featured: false,
   },
   {
@@ -48,7 +48,7 @@ const TEAM = [
     specialties: ["Periodontal Therapy", "Bone Grafting", "Laser Dentistry"],
     education: "BDS – UDS, MSc Periodontology – Barts & The London",
     years: "11+",
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBWdM_-46e_uvSCZTq-UGFT816Gdx3pdNWhWMLAYe-y1pbCmicTscSH0m0eMAe2kGP_9gCBzO5ewE0HJqbe7lLj-QHkuaJTCOc7_gxsNcnNH1BcTGkbGFiMHH4TcKBhFCYd5Cjbcsh7OzVaQ6zFaqx6vSONfGU1NNhaFfn4Ha5SNL_JDTrL5FBOE633vTEyvneBYpAxPekfwZkiKlNXU1QqSEkSOT792cqHESb5Z8GAkpubOpTpf0kSkakitTL799_ZCzXyCPUo",
+    img: "/img/photo-5.webp",
     featured: false,
   },
 ];

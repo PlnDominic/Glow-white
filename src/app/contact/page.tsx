@@ -256,7 +256,7 @@ export default function Contact() {
             <img loading="lazy" decoding="async"
               alt="Clinic Interior"
               className="w-full h-full object-cover"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWdM_-46e_uvSCZTq-UGFT816Gdx3pdNWhWMLAYe-y1pbCmicTscSH0m0eMAe2kGP_9gCBzO5ewE0HJqbe7lLj-QHkuaJTCOc7_gxsNcnNH1BcTGkbGFiMHH4TcKBhFCYd5Cjbcsh7OzVaQ6zFaqx6vSONfGU1NNhaFfn4Ha5SNL_JDTrL5FBOE633vTEyvneBYpAxPekfwZkiKlNXU1QqSEkSOT792cqHESb5Z8GAkpubOpTpf0kSkakitTL799_ZCzXyCPUo"
+              src="/img/photo-5.webp"
             />
           </div>
           <div className="w-full md:w-1/2 space-y-6">

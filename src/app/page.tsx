@@ -10,7 +10,7 @@ export default function Home() {
           <img
             alt="Modern dental office"
             className="w-full h-full object-cover"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbR9O6q_uIL9h4I8U0kmMrCxhjdA1M6b505UXavtyWBePrzh2px9dITThWWO7yacEq0Zlpb_l1HevP6QSJGuChRIyn-m2x9wjG82IKbyWliBy83tC9p1_rX0yzdyLKKN3NHt1aeSftXPFBh4Ih3OHp0GnuEdczxjr1H4rDkBYjDqtsXO461EIBUojie7Iyam0XU-CDG46LhtLrjhli7gw7Uj6Cr1ZQOmgBINex49CbB42c4HzMlQgpDa9HfUCko8v2EgmL1hsp"
+            src="/img/photo-13.webp"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent"></div>
         </div>
@@ -81,7 +81,7 @@ export default function Home() {
                 <img loading="lazy" decoding="async"
                   alt="Teeth Whitening"
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoZD_mYJ3Yo0R-6qfXD6p47LIYD0SyBrmRvJ_VRkJxV101pggYQ-rnZK2nccx3oqqqmcZWpUtBcnFK_WdJfgREX2xz0H8tnCaRHYyLDC3_xGE_SfguYEVQU4yxDm-1N6n9kxvI6LxMydbJ8yp42uiiaPhTLoh9Mz9ud3JRn36aNmCyKPjgfhlORUlWADJS0Z4BH_FMTieH6KWdszPMR_gZlh1ezyfhdMMfg8gLYyS4HCNjacQU12gr_XVW2oBikr8024k7dTtE"
+                  src="/img/photo-15.webp"
                 />
               </div>
             </div>
@@ -161,7 +161,7 @@ export default function Home() {
                 <img loading="lazy" decoding="async"
                   alt="Dental Implants"
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuC74XPc8w_xtmi63pMYuqqJuIMHovNjZIKULiMAgVTVx0HGiL9qGoqqOHTmLw2ayQO5VN8nedoMjb0pAbXSAgIfoCuP04flIs9LRx55bGccI6lZ1YYkyqSkB-YoHoZAjycm_6v2AkO9c3AQs5306fhBXe-TDLWY-DfToADWQGbAemH68Ir_SrrCKWWUAnPcn44a1u2tiUrvD6Hd6rvXCkR_IZPN_OUyyXPTOmWFuol-QyqA_iRtAsXl2CdXr3DzKGj4ODJR5PCY"
+                  src="/img/photo-9.webp"
                 />
               </div>
             </div>
@@ -207,7 +207,7 @@ export default function Home() {
             <img loading="lazy" decoding="async"
               alt="Appointment"
               className="w-full h-full object-cover opacity-20"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuJgkPLsvEojA5pDArxzcxwJGVLwws4H2_8e6aTk9Y_NCakl3v2Al1JG0qegRT7JDViHAgxn4v49wKTreTw79awiHtVfTOr0nhA6wuCyOEVGxcXqAC1UGku-0hFruK4GxEYnqEmbdCwjnmH8Bkv2C7NVDM9UhfZngKDSsApIsM1zGVykd6SeuHfD4haUCLPo34olpFU8LSRa7rNFfnSQctircLswXcwL2mBqB2_LwC_QQauUvg6aNHmtSZHieHqeQ0-WRDDme9"
+              src="/img/photo-17.webp"
             />
             <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/80 to-primary-container"></div>
           </div>

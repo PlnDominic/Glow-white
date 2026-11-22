@@ -20,7 +20,7 @@ export default function About() {
               <img
                 alt="Interior design of a luxury dental clinic lobby"
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgBxyKnXvuVrn4MHOPWkshIfVnmRFoAH6Ia397IF8It0zW6c-Xd1GmAMB79vNrKhW2E1m2sWydmKjMiTpPwzF4EV2QjA69dMc4P3knwoRrv9-dQ5wEGKBa0_0BaqAZFQ6pYDdX2nmtPNB1TzMuxll67WShD3Jm8oHBHVwwA5uxK8Qoi8o1J-CSyVu01QcQ0KmiL2ht8mduCbKxvBZSdgBB9tqRlyC69jrxTW2yjjU5DZ3GKsmjAhxpl1TWhJabpXWadTWoRfC-"
+                src="/img/photo-2.webp"
               />
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function About() {
               <img loading="lazy" decoding="async"
                 alt="A collage of dental tools and modern clinic architecture"
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD97nO1GHzyQU-F3EmFmjNGliU69MP2_oD84dG6muh_flRGRv3MJJP5L1BJXvJ4OzKunoshTRv4Zw95QhKyZ17oSEQpfeiadCObFyZ60kpmVITW8iV-ta1POfjclQCsAtOv-vISdkkMMzf2a5jfOa5A4p9f3LamtsGsCnxifCZGCrI3WP8RrdAdGlT94BrUN_7otTyrR5-PxRcjykvPk05VObkKiGeGCHKFZhDYWJlLe0JCUX7XYXjEBA5qmgdsb9tyg-SN5vLX"
+                src="/img/photo-18.webp"
               />
             </div>
             <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-tertiary-container rounded-full blur-[100px] opacity-20 -z-10"></div>

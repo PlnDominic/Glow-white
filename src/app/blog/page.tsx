@@ -25,7 +25,7 @@ export default function Blog() {
               <img
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Modern clinical dental equipment"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrFMXF8Rzdu8dWAb_7WU2qIgx1kxCckGrnaF1DWNNs6r0EJh_z4AL4YyNmevS33ij_dn0-zZU0b0rLKWz4Tc4OQltu_S_6GCXduCwSNDdGXBaQ0uHvWhZmky2803_U2V-VvuuPQbKhdYHYt494ktkp_O6c8FT9TTckN0BaJgzF9EPFMO4hI3pBHM8-r2yDMQ0PD68VJZsbuDuOOwiw8dyPI4YBOdEd-T-8psxAzPmzo17gWuO6dtwJANxBs258h-V7OpeofhlI"
+                src="/img/photo-16.webp"
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-on-background/90 via-on-background/40 to-transparent flex flex-col justify-end p-8 md:p-12">
@@ -108,35 +108,35 @@ export default function Blog() {
               category: "Daily Ritual",
               date: "May 12, 2024",
               desc: "Understanding the sequence of oral care can significantly impact the long-term health of your enamel and gums.",
-              img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDLk3JbZpiRmBz2Q5V1pL6uRIR4Mog6QEBizKhz0fvDPX2ZLHVIFrEXgUYqQUYqbPCP-kHR-nnuoneiwmtoey6C75eTOzxBesbxwvdSLJWPKbsXHFDWGnrIV3zmUcSMXkDcYokgm6qbmCDjCt9VQ79T5qCyUNOaiBnWxpOuKjdC0lYY_Z86Bv1qFXOqPoASfm3nxtQk-jbtDO8I5hUMHu3rmqqkh42FbYBkddTBgpK611665upnPnSWZ883E8_3xDALV6LZDhLJ"
+              img: "/img/photo-20.webp"
             },
             {
               title: "Veneers vs. Bonding: Choosing Your Perfect Smile",
               category: "Cosmetic",
               date: "May 08, 2024",
               desc: "A clinical comparison of modern restorative techniques to help you make an informed decision for your aesthetic goals.",
-              img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA4KFMSj3AhDzFXDInN36qZE2WGJ4K1SyIKRYLukPDLyiCEN-fBUIYKZ6Dyxuv5GgUgu7eydlLWOwjSKN8AL_dZhqhlK9sY0kn_gSwKEYkokx7o-q2iegSwHxn9s5Fupu_aHN9zN48cVaTlANWs3W5GMXvFH-7OuR9hosA-WIlFml0p2S2_Fa2xQRfp4T2sZSKDxpM0VhYUUpdcBn4N1fuPgbADgDXezMfZ4Iu3YIt-COREkBSpgy_gLLfYqg0a82zZxT4c3Bao"
+              img: "/img/photo-1.webp"
             },
             {
               title: "The Alimentary Link: Nutrition and Gum Health",
               category: "Nutrition",
               date: "May 03, 2024",
               desc: "How your dietary choices directly influence periodontal strength and the body's natural inflammatory responses.",
-              img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDpR5JSNnNZC_edEHNeM0sYsMg5-Vcbg9gbyp3QQA21oG3iiJrrcRz_z0cipo3DsvW0357xU3NMzgM8g7Vw1GOcnaf3WZM-3CiQCOVaUF6XZsrgYGGsyTlDbhb4fVH0AW5XVPgy3hOmlue6xOJ6LHxRFKZVSim4oD2aXsfKhb45ZBUMVdMQY5q7HSIcPxtg5udkouAE1xRrAZwwchNwyliUljfKNKxifiFZcMjiyQpKj25lgvIeJy725I1H0pC6Zt759TnFWu5U"
+              img: "/img/photo-21.webp"
             },
             {
               title: "Laser Dentistry: The End of the Drill?",
               category: "Technology",
               date: "April 27, 2024",
               desc: "An exploration of how laser technology is revolutionizing cavity treatment and soft tissue procedures with zero pain.",
-              img: "https://lh3.googleusercontent.com/aida-public/AB6AXuC38y1rwMIkuEmmPydkNF7AZ21TTj9Q9qOL5SzddZO-SoNFjlXzDWlnpakPvBaiSBMZOMjt32_H1tLO_Zh6kiDF4DZSizq7l4QTWTLI8rbwlNUJ4FfRCJ5ma0RbrTwPjEFc1FsCeNIknhulrXdXKUuS42Y1hWYLRwaHI6arwo-SIgOE3304_yFHrR4Pr2tnai9mKpYQ7k4udbXxgHGcSfyg2Rg_AiAQ7GuGuHMr7oRBtBw7pBrdGOUbSg7k893UkZesmce5CdDw"
+              img: "/img/photo-8.webp"
             },
             {
               title: "Pediatric Milestones: The First Visit",
               category: "Family Care",
               date: "April 15, 2024",
               desc: "How to prepare your child for their first dental experience to ensure a lifetime of positive oral health associations.",
-              img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDra6X0shbx607RZeadZ1iru8WWM411qlxwi0LScvTcSDdt9QHmanrgEOvmqRNve-EOqwlFsWp85bb0PLCENBc5zcRy8baF5D6XfJ_4DJSEYh3F-8XJD_ZvD_VI6gtJAWPqLgmDEKNPGpPKPrxvhAWSyZ3sQXbhLATOmE7BkxSwWwmml-AbWUEuGgoa8_uoTKvshUjEn-QQAwb2-hA1C2NewDEveu3fJ-8Mh6D_T1a77mhlTeth3AtKtb7SN8EdKhLznotsjIal"
+              img: "/img/photo-22.webp"
             }
           ].map((post, i) => (
             <article key={i} className="flex flex-col h-full bg-surface-container-lowest rounded-[2rem] overflow-hidden hover:shadow-2xl transition-all duration-500 group border border-outline-variant/10">

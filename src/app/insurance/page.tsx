@@ -21,7 +21,7 @@ export default function Insurance() {
               <img
                 alt="Clinic Reception"
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBycILntza5GcK8Gfz38OQatvkLXeUqoEXBPuGYeBvRIW7NcU-Cz042iCeyZ0QZzEJHIbVltRXgcIRN73_MIuM7Vs8Cu_RHYWb2t7oxp5rli9Gd5xAUAXUo1YMBlE4FspOD54YK4TOTR81VMrmnrbu6JM1Iepm9Ggpu3t4b-258q-HUFg6BE1OQHI8I8Is6yF4P6hsAnOqzjLSMHfthn2GTAeGVxT-Uww_jaj5ZC6OqNzW9IMu7qrJlmyXYAFafDvCiAagCle__"
+                src="/img/photo-7.webp"
               />
             </div>
             <div className="absolute -bottom-8 -left-8 bg-white/80 backdrop-blur-xl p-8 rounded-2xl shadow-xl max-w-xs hidden md:block border border-white/20">
@@ -98,7 +98,7 @@ export default function Insurance() {
             <img loading="lazy" decoding="async"
               alt="Consultation"
               className="absolute inset-0 w-full h-full object-cover"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKfQOKpPLpKptOkL-SS1f1Q1sPIamzGo8Rjm45y5AbmXvYfX7ax8ckBWw62JEOHC5gc_L3yXaXVrgROiq7w5QyYrF3V5gtaPIVqsbjAWKnG-gVlrCOtz6B4fxIhQhfnE7MEGle2BEZYrhYhKw-ilxM6cUrm1TUuVDv0MLuWxpe6aSZmMKJmtxvzVyKjgZL6XQIrcla-PqOailQlAFoxDEeh_0Ec2EQhslOOJucJXTK1jLyyCJ4RwW-W0W2Uecoa2TVV8hWn0fm"
+              src="/img/photo-11.webp"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-surface-container-lowest via-transparent to-transparent hidden lg:block"></div>
           </div>
