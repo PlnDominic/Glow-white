@@ -73,7 +73,7 @@ export default function Blog() {
               <div className="relative z-10">
                 <h3 className="text-lg font-headline font-bold mb-2">Need advice?</h3>
                 <p className="text-sm opacity-80 mb-6 leading-relaxed font-body">Speak with our clinical experts for a personalized hygiene plan.</p>
-                <Link href="/contact" className="bg-white text-primary px-6 py-2 rounded-full text-sm font-bold active:scale-95 transition-all inline-block">Consult Now</Link>
+                <Link prefetch={false} href="/contact" className="bg-white text-primary px-6 py-2 rounded-full text-sm font-bold active:scale-95 transition-all inline-block">Consult Now</Link>
               </div>
               <div className="absolute -right-4 -bottom-4 opacity-10">
                 <span className="material-symbols-outlined text-9xl">medical_services</span>
@@ -151,7 +151,7 @@ export default function Blog() {
                 </div>
                 <h3 className="text-2xl font-headline font-bold text-on-background mb-4 leading-tight group-hover:text-primary transition-colors">{post.title}</h3>
                 <p className="text-on-surface-variant text-sm leading-relaxed mb-6 flex-1 font-body">{post.desc}</p>
-                <Link href="#" className="inline-flex items-center text-primary font-bold text-xs uppercase tracking-widest font-body group/link">
+                <Link prefetch={false} href="#" className="inline-flex items-center text-primary font-bold text-xs uppercase tracking-widest font-body group/link">
                   Read Insight
                   <span className="material-symbols-outlined ml-2 transition-transform group-hover/link:translate-x-1 text-sm">arrow_forward</span>
                 </Link>

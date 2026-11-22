@@ -7,7 +7,7 @@ export default function NotFound() {
       <p className="text-on-surface-variant font-body mb-8 max-w-md">
         The sanctuary you are looking for does not exist. Please return to the homepage to select a valid care path.
       </p>
-      <Link
+      <Link prefetch={false}
         href="/"
         className="bg-primary text-on-primary px-8 py-3 rounded-full font-bold shadow-lg hover:shadow-primary/20 transition-all font-body"
       >

@@ -141,7 +141,7 @@ export default function Services() {
             <h2 className="font-headline text-5xl font-extrabold tracking-tight leading-none">Your journey to perfection begins here.</h2>
             <p className="text-on-surface-variant text-xl font-body">Book a consultation with our lead specialists to receive a bespoke treatment plan designed exclusively for your anatomy.</p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/booking" className="bg-primary text-on-primary px-10 py-5 rounded-full font-bold text-lg hover:opacity-90 transition-all flex items-center justify-center gap-3">
+              <Link prefetch={false} href="/booking" className="bg-primary text-on-primary px-10 py-5 rounded-full font-bold text-lg hover:opacity-90 transition-all flex items-center justify-center gap-3">
                 Start Consultation <span className="material-symbols-outlined">arrow_forward</span>
               </Link>
               <a

@@ -31,7 +31,7 @@ export default function Navbar() {
     <>
       <nav className="fixed top-0 w-full z-50 bg-white shadow-[0px_20px_40px_rgba(25,28,30,0.06)] flex justify-between items-center px-6 md:px-12 h-20 max-w-full">
         <div className="flex items-center gap-4">
-          <Link href="/" className="flex-shrink-0">
+          <Link prefetch={false} href="/" className="flex-shrink-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/logo.jpeg" alt="GloWhite Dental" style={{ height: 44, width: "auto", borderRadius: 8 }} />
           </Link>
@@ -42,7 +42,7 @@ export default function Navbar() {
           {navigation.map((item) => {
             const isActive = pathname === item.href;
             return (
-              <Link
+              <Link prefetch={false}
                 key={item.name}
                 href={item.href}
                 className={`${
@@ -58,7 +58,7 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-4 md:gap-8">
-          <Link
+          <Link prefetch={false}
             href="/booking"
             className="hidden sm:inline-flex bg-gradient-to-r from-primary to-primary-container text-on-primary px-6 py-2.5 rounded-full font-semibold text-sm hover:opacity-90 active:scale-95 transition-all shadow-md"
           >
@@ -103,7 +103,7 @@ export default function Navbar() {
               {navigation.map((item) => {
                 const isActive = pathname === item.href;
                 return (
-                  <Link
+                  <Link prefetch={false}
                     key={item.name}
                     href={item.href}
                     className={`block text-lg font-semibold ${
@@ -116,7 +116,7 @@ export default function Navbar() {
                   </Link>
                 );
               })}
-              <Link
+              <Link prefetch={false}
                 href="/booking"
                 className="block sm:hidden bg-gradient-to-r from-primary to-primary-container text-on-primary px-6 py-4 rounded-xl font-semibold text-center mt-8 shadow-md"
               >

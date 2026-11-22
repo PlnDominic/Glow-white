@@ -10,7 +10,7 @@ export default function Footer() {
           Experience the pinnacle of dental care where every procedure is performed with clinical precision and patient comfort in mind.
         </p>
         <div className="flex gap-4 text-slate-500">
-          <Link
+          <Link prefetch={false}
             href="https://www.instagram.com/glowhite_dental_clinic/"
             target="_blank"
             rel="noopener noreferrer"
@@ -22,7 +22,7 @@ export default function Footer() {
               <path d="M12 15.333a3.333 3.333 0 1 1 0-6.666 3.333 3.333 0 0 1 0 6.666ZM12 7.297a4.703 4.703 0 1 0 0 9.406 4.703 4.703 0 0 0 0-9.406ZM17.965 7.144a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0Z" />
             </svg>
           </Link>
-          <Link
+          <Link prefetch={false}
             href="https://web.facebook.com/p/GloWhite-Dental-Clinic-61559875856043/"
             target="_blank"
             rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export default function Footer() {
       <div className="md:col-span-2 pt-8 border-t border-slate-100 text-[10px] font-body text-slate-500 flex justify-between items-center">
         <span>© 2026 GloWhite. Precision Care, Tranquil Experience.</span>
         <div className="flex gap-6">
-          <Link
+          <Link prefetch={false}
             className="hover:text-blue-600 transition-colors"
             href="https://www.ecstasytechnologies.com"
             target="_blank"

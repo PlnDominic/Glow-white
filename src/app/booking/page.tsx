@@ -88,7 +88,7 @@ function ConfirmationScreen({
         <p className="text-xs text-on-surface-variant font-body">
           A confirmation email will be sent to you. For changes, call <strong>053 964 7100 | 027 184 2345</strong>.
         </p>
-        <Link
+        <Link prefetch={false}
           href="/"
           className="inline-block bg-primary text-on-primary px-10 py-4 rounded-full font-bold shadow-lg hover:opacity-90 transition-all font-body"
         >

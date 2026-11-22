@@ -146,7 +146,7 @@ export default function About() {
           <div className="relative z-10">
             <h2 className="text-4xl lg:text-5xl font-headline font-extrabold text-on-primary mb-6 tracking-tight">Ready for a different kind of care?</h2>
             <p className="text-on-primary-container text-lg mb-10 max-w-2xl mx-auto font-body">Experience the intersection of precision medicine and absolute tranquility. Your sanctuary awaits.</p>
-            <Link href="/booking" className="bg-surface-container-lowest text-primary px-10 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform inline-block">
+            <Link prefetch={false} href="/booking" className="bg-surface-container-lowest text-primary px-10 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform inline-block">
               Schedule Your Visit
             </Link>
           </div>

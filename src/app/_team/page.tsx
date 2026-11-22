@@ -180,7 +180,7 @@ export default function Team() {
                     <div className="text-xl font-headline font-extrabold text-on-surface">{member.years}</div>
                     <div className="text-[9px] uppercase tracking-widest text-outline font-bold">Experience</div>
                   </div>
-                  <Link
+                  <Link prefetch={false}
                     href="/booking"
                     className="text-[10px] uppercase tracking-wider font-bold text-primary hover:underline flex items-center gap-1 font-body"
                   >
@@ -228,13 +228,13 @@ export default function Team() {
               Book a consultation and we will pair you with the specialist best suited to your needs and goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link
+              <Link prefetch={false}
                 href="/booking"
                 className="bg-primary text-on-primary px-10 py-5 rounded-full font-bold text-lg hover:opacity-90 active:scale-95 transition-all flex items-center justify-center gap-3"
               >
                 Book Appointment <span className="material-symbols-outlined">arrow_forward</span>
               </Link>
-              <Link
+              <Link prefetch={false}
                 href="/contact"
                 className="bg-surface-container-high text-on-surface px-10 py-5 rounded-full font-bold text-lg hover:bg-surface-container-highest transition-all text-center"
               >

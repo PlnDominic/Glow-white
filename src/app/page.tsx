@@ -25,13 +25,13 @@ export default function Home() {
             Experience dental care reimagined as a restorative journey. Our GloWhite combines world-class expertise with a calming atmosphere.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link
+            <Link prefetch={false}
               href="/booking"
               className="bg-primary text-on-primary px-8 py-4 rounded-full font-semibold text-base shadow-lg hover:opacity-90 active:scale-95 transition-all text-center"
             >
               Schedule Your Visit
             </Link>
-            <Link
+            <Link prefetch={false}
               href="/services"
               className="bg-surface-container-high text-on-secondary-container px-8 py-4 rounded-full font-semibold text-base hover:bg-surface-container-highest transition-all text-center"
             >
@@ -52,7 +52,7 @@ export default function Home() {
               Curated treatments designed for lasting health and aesthetic perfection.
             </p>
           </div>
-          <Link
+          <Link prefetch={false}
             href="/services"
             className="text-primary font-bold text-xs uppercase tracking-wider cursor-pointer hover:underline font-body"
           >
@@ -70,7 +70,7 @@ export default function Home() {
                 <p className="text-on-surface-variant mb-6 leading-relaxed font-body">
                   Advanced cold-light technology for up to 8 shades lighter in a single sanctuary session.
                 </p>
-                <Link
+                <Link prefetch={false}
                   href="/booking"
                   className="text-primary font-bold flex items-center gap-2 group-hover:gap-4 transition-all font-body"
                 >
@@ -104,7 +104,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-8 relative z-10">
-              <Link
+              <Link prefetch={false}
                 href="/booking"
                 className="bg-white/10 backdrop-blur-md px-6 py-2 rounded-full font-semibold border border-white/20 hover:bg-white/20 transition-all inline-block"
               >
@@ -130,7 +130,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-8 relative z-10">
-              <Link
+              <Link prefetch={false}
                 href="/booking"
                 className="text-primary font-bold flex items-center gap-2 group-hover:gap-4 transition-all font-body"
               >
@@ -219,7 +219,7 @@ export default function Home() {
               Take the first step toward precision-guided oral health in our GloWhite.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
+              <Link prefetch={false}
                 href="/booking"
                 className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 active:scale-95 transition-all shadow-xl shadow-primary/20 inline-flex items-center justify-center"
               >
