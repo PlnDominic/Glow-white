@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://glowhite.com"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://glowhitedental.com"),
   title: "GloWhite | Glowhite Dental Clinic",
   description: "Experience dental care reimagined as a restorative journey. We offer a full range of services including preventive care, restorative treatments, cosmetic dentistry, and orthodontics—tailored to meet the unique needs of each patient.",
   icons: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "GloWhite | Glowhite Dental Clinic",
     description: "Experience dental care reimagined as a restorative journey. We offer a full range of services including preventive care, restorative treatments, cosmetic dentistry, and orthodontics—tailored to meet the unique needs of each patient.",
-    url: "https://glowhite.com",
+    url: "https://glowhitedental.com",
     siteName: "GloWhite Dental Clinic",
     images: [
       {
