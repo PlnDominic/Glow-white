@@ -78,7 +78,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="w-full md:w-1/2 aspect-video rounded-lg overflow-hidden">
-                <img
+                <img loading="lazy" decoding="async"
                   alt="Teeth Whitening"
                   className="w-full h-full object-cover"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoZD_mYJ3Yo0R-6qfXD6p47LIYD0SyBrmRvJ_VRkJxV101pggYQ-rnZK2nccx3oqqqmcZWpUtBcnFK_WdJfgREX2xz0H8tnCaRHYyLDC3_xGE_SfguYEVQU4yxDm-1N6n9kxvI6LxMydbJ8yp42uiiaPhTLoh9Mz9ud3JRn36aNmCyKPjgfhlORUlWADJS0Z4BH_FMTieH6KWdszPMR_gZlh1ezyfhdMMfg8gLYyS4HCNjacQU12gr_XVW2oBikr8024k7dTtE"
@@ -96,7 +96,7 @@ export default function Home() {
                 Precision alignment using 3D imaging and invisible alignment options.
               </p>
               <div className="mt-6 rounded-lg overflow-hidden aspect-video border border-white/10">
-                <img
+                <img loading="lazy" decoding="async"
                   alt="Modern braces treatment"
                   className="w-full h-full object-cover"
                   src="/braces.png"
@@ -122,7 +122,7 @@ export default function Home() {
                 Custom smile design for refined shape, shade, and symmetry with a natural enamel-like finish.
               </p>
               <div className="mt-6 rounded-lg overflow-hidden aspect-video">
-                <img
+                <img loading="lazy" decoding="async"
                   alt="Porcelain veneers smile design"
                   className="w-full h-full object-cover"
                   src="/dental-veneers-on-lower-tooth.png"
@@ -158,7 +158,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-full md:w-3/5 aspect-[21/9] rounded-lg overflow-hidden">
-                <img
+                <img loading="lazy" decoding="async"
                   alt="Dental Implants"
                   className="w-full h-full object-cover"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuC74XPc8w_xtmi63pMYuqqJuIMHovNjZIKULiMAgVTVx0HGiL9qGoqqOHTmLw2ayQO5VN8nedoMjb0pAbXSAgIfoCuP04flIs9LRx55bGccI6lZ1YYkyqSkB-YoHoZAjycm_6v2AkO9c3AQs5306fhBXe-TDLWY-DfToADWQGbAemH68Ir_SrrCKWWUAnPcn44a1u2tiUrvD6Hd6rvXCkR_IZPN_OUyyXPTOmWFuol-QyqA_iRtAsXl2CdXr3DzKGj4ODJR5PCY"
@@ -184,14 +184,14 @@ export default function Home() {
         </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
             <div className="flex items-center justify-center bg-white border border-slate-100 p-6 shadow-sm hover:shadow-md transition-shadow grayscale hover:grayscale-0 duration-500">
-              <img
+              <img loading="lazy" decoding="async"
                 src="/insurance.jpg"
                 alt="Our Insurance Partners"
                 className="w-full h-auto"
               />
             </div>
             <div className="flex items-center justify-center bg-white border border-slate-100 p-6 shadow-sm hover:shadow-md transition-shadow grayscale hover:grayscale-0 duration-500">
-              <img
+              <img loading="lazy" decoding="async"
                 src="/Nationwide%20Medical%20Insurance.png"
                 alt="Nationwide Medical Insurance"
                 className="max-h-32 w-full object-contain"
@@ -204,7 +204,7 @@ export default function Home() {
       <section className="mx-8 md:mx-20 mb-20 section-cta">
         <div className="relative rounded-3xl overflow-hidden bg-primary p-12 md:p-20 text-center">
           <div className="absolute inset-0 z-0">
-            <img
+            <img loading="lazy" decoding="async"
               alt="Appointment"
               className="w-full h-full object-cover opacity-20"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuJgkPLsvEojA5pDArxzcxwJGVLwws4H2_8e6aTk9Y_NCakl3v2Al1JG0qegRT7JDViHAgxn4v49wKTreTw79awiHtVfTOr0nhA6wuCyOEVGxcXqAC1UGku-0hFruK4GxEYnqEmbdCwjnmH8Bkv2C7NVDM9UhfZngKDSsApIsM1zGVykd6SeuHfD4haUCLPo34olpFU8LSRa7rNFfnSQctircLswXcwL2mBqB2_LwC_QQauUvg6aNHmtSZHieHqeQ0-WRDDme9"

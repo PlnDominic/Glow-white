@@ -253,7 +253,7 @@ export default function Contact() {
         {/* Feature Section */}
         <section className="mt-20 flex flex-col md:flex-row items-center gap-12 bg-surface-container-lowest rounded-[3rem] p-8 md:p-12 shadow-xl border border-outline-variant/10">
           <div className="w-full md:w-1/2 h-[400px] rounded-2xl overflow-hidden shadow-inner">
-            <img
+            <img loading="lazy" decoding="async"
               alt="Clinic Interior"
               className="w-full h-full object-cover"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWdM_-46e_uvSCZTq-UGFT816Gdx3pdNWhWMLAYe-y1pbCmicTscSH0m0eMAe2kGP_9gCBzO5ewE0HJqbe7lLj-QHkuaJTCOc7_gxsNcnNH1BcTGkbGFiMHH4TcKBhFCYd5Cjbcsh7OzVaQ6zFaqx6vSONfGU1NNhaFfn4Ha5SNL_JDTrL5FBOE633vTEyvneBYpAxPekfwZkiKlNXU1QqSEkSOT792cqHESb5Z8GAkpubOpTpf0kSkakitTL799_ZCzXyCPUo"

@@ -86,7 +86,7 @@ export default function About() {
           </div>
           <div className="relative">
             <div className="rounded-[2.5rem] overflow-hidden aspect-video shadow-2xl relative z-10">
-              <img
+              <img loading="lazy" decoding="async"
                 alt="A collage of dental tools and modern clinic architecture"
                 className="w-full h-full object-cover"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuD97nO1GHzyQU-F3EmFmjNGliU69MP2_oD84dG6muh_flRGRv3MJJP5L1BJXvJ4OzKunoshTRv4Zw95QhKyZ17oSEQpfeiadCObFyZ60kpmVITW8iV-ta1POfjclQCsAtOv-vISdkkMMzf2a5jfOa5A4p9f3LamtsGsCnxifCZGCrI3WP8RrdAdGlT94BrUN_7otTyrR5-PxRcjykvPk05VObkKiGeGCHKFZhDYWJlLe0JCUX7XYXjEBA5qmgdsb9tyg-SN5vLX"

@@ -141,7 +141,7 @@ export default function Blog() {
           ].map((post, i) => (
             <article key={i} className="flex flex-col h-full bg-surface-container-lowest rounded-[2rem] overflow-hidden hover:shadow-2xl transition-all duration-500 group border border-outline-variant/10">
               <div className="h-64 overflow-hidden">
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src={post.img} alt={post.title} />
+                <img loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src={post.img} alt={post.title} />
               </div>
               <div className="p-8 flex flex-col flex-1">
                 <div className="flex items-center space-x-2 text-[10px] uppercase tracking-widest font-bold text-secondary mb-4 font-body">

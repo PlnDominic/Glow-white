@@ -42,7 +42,7 @@ export default function Services() {
                   <div className="h-[1px] w-12 bg-outline-variant/30"></div>
                 </div>
               </div>
-              <img
+              <img loading="lazy" decoding="async"
                 className="absolute right-0 bottom-0 w-1/2 h-full object-cover opacity-10 group-hover:opacity-20 transition-opacity"
                 alt="Teeth whitening result"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJM7OQfFEN7-cr8AelMI60GbGfadDa3gO9vhZKiWx0suNcN2atFjXTlsBn0Nf6_f6J4h5OK5YMUEyqYuZCIa1TL2oJF8QLIzC8OdJfBs5P9i-iXw_pm4ilf-qiUur4DIxR3gz-n1JFZI3i7eUfKJ05pe8_S4pWDPnl_S0hOAFd7fllMyC3fNilSnYF29MAO2rD5r5zO18vYz4ZIND4fLqAJ7zIosBrFpKK1ikjfL2GM-DAhqP2ktnXx_KvleXuGX1iPAMsm1RN"
@@ -67,7 +67,7 @@ export default function Services() {
               <h3 className="font-headline text-2xl font-bold tracking-tight mb-3">Invisalign®</h3>
               <p className="text-on-surface-variant text-sm mb-6 font-body">Clear aligner therapy for a discreet path to alignment. SmartTrack material ensures comfort and precision.</p>
               <div className="rounded-2xl overflow-hidden aspect-video">
-                <img
+                <img loading="lazy" decoding="async"
                   className="w-full h-full object-cover"
                   alt="Invisalign aligners"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjDjXH1fWFblOlXLJTbuAtHEyBjZeQuExfjMTsGhXd8byPgij1wZe0t2cd_8gjYj7EzftJ93EGOvZ6ssZ-RTEubYbjEv8ogwoAwRaZt_Unc871fQw2aMgLphBw3cfU3CR0_cbMTl5r7Go_9yYr-LPPm6ocMNlnAOtGkhQN_X9TtnqYaGQxF6an7RYFYobbCUxn2Ck0-m2mxLf3YaRza6WUNI8-CpanPeOxAv-ysfMV9s-D2QDMyCnRFwTHYDMioWKA2-31bkqh"
@@ -81,7 +81,7 @@ export default function Services() {
               <h3 className="font-headline text-2xl font-bold tracking-tight mb-3">Veneers</h3>
               <p className="text-on-surface-variant text-sm mb-6 font-body">Ultra-thin porcelain shells crafted to refine shape, shade, and symmetry while preserving a natural, luminous smile.</p>
               <div className="rounded-2xl overflow-hidden aspect-video mb-6">
-                <img
+                <img loading="lazy" decoding="async"
                   className="w-full h-full object-cover"
                   alt="Porcelain veneers smile design"
                   src="/dental-veneers-on-lower-tooth.png"
@@ -123,7 +123,7 @@ export default function Services() {
               </div>
               <div className="w-full md:w-96 rounded-3xl overflow-hidden relative group aspect-square shadow-2xl">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent z-10"></div>
-                <img
+                <img loading="lazy" decoding="async"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   alt="Modern braces treatment"
                   src="/braces.png"

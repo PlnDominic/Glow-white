@@ -176,7 +176,7 @@ export default function Booking() {
         </div>
         <div className="lg:col-span-5 hidden lg:block">
           <div className="relative rounded-3xl overflow-hidden shadow-2xl h-64 w-full aspect-video">
-            <img
+            <img loading="lazy" decoding="async"
               className="object-cover w-full h-full"
               alt="Modern clinic interior"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbhiNq4DFpLBZB9CZZhZAet56aOZb-tYcdLXF58Mqg1CSZnB4csZ_rwKfEhtY2ub7r5t7vD02LUsSYQeQTfusyyAPi4QJdsMQy2wzGeeC6uByQ2Is6ANWFWGpQS_QLh063UBNIfuMByvfFEmF1kK1JCeFkF0_Cm9SaEqOHGYOWkHP0nMpTh2yKRWSTxMfwS0JvAgdNejW6xWreSRjCaMgsvoq6xlqMZqi378826uZfbLw0OflqZOH-nV5WfuDpLVRc-rM2UfYE"
