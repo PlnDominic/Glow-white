@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { supabase } from "@/lib/supabase";
 import { sendPatientConfirmation, sendBusinessNotification } from "@/lib/mailer";
+import { sendPatientSms, sendBusinessSms } from "@/lib/sms";
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
@@ -76,10 +77,12 @@ export async function POST(request: NextRequest) {
   const results = await Promise.allSettled([
     sendPatientConfirmation(emailPayload),
     sendBusinessNotification(emailPayload),
+    sendPatientSms(emailPayload),
+    sendBusinessSms(emailPayload),
   ]);
-  const labels = ["patient confirmation", "business notification"];
+  const labels = ["patient confirmation email", "business notification email", "patient SMS", "business SMS"];
   results.forEach((r, i) => {
-    if (r.status === "rejected") console.error(`Failed to send ${labels[i]} email for ${bookingId}:`, r.reason);
+    if (r.status === "rejected") console.error(`Failed to send ${labels[i]} for ${bookingId}:`, r.reason);
   });
 
   return NextResponse.json({ bookingId, message: "Booking confirmed." }, { status: 201 });
