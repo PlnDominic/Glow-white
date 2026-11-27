@@ -1,9 +1,16 @@
 import nodemailer from "nodemailer";
 
+const SMTP_PORT = Number(process.env.SMTP_PORT ?? 587);
+
 const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,
-  port: Number(process.env.SMTP_PORT ?? 587),
-  secure: process.env.SMTP_SECURE === "true",
+  port: SMTP_PORT,
+  // Port 465 is implicit TLS; others (587) use STARTTLS. Derive from the port so a
+  // mismatched SMTP_SECURE value can't break sending.
+  secure: SMTP_PORT === 465,
+  connectionTimeout: 10_000,
+  greetingTimeout: 10_000,
+  socketTimeout: 15_000,
   auth: {
     user: process.env.SMTP_USER,
     pass: process.env.SMTP_PASS,
