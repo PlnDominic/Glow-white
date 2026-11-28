@@ -32,8 +32,7 @@ export default function Navbar() {
       <nav className="fixed top-0 w-full z-50 bg-white shadow-[0px_20px_40px_rgba(25,28,30,0.06)] flex justify-between items-center px-6 md:px-12 h-20 max-w-full">
         <div className="flex items-center gap-4">
           <Link prefetch={false} href="/" className="flex-shrink-0">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.webp" alt="GloWhite Dental" style={{ height: 44, width: "auto", borderRadius: 8 }} />
+            <span role="img" aria-label="GloWhite Dental" className="site-logo rounded-lg" />
           </Link>
         </div>
 
